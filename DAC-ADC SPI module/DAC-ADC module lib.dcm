@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1501
+D 50ppm/°C, +4.096V, High Precision Buffered Voltage Reference, SO-8
+K precision voltage reference
+F https://ww1.microchip.com/downloads/en/DeviceDoc/20005474E.pdf
+$ENDCMP
+#
+#End Doc Library
