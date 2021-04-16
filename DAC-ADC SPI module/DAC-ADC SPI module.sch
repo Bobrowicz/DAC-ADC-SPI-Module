@@ -2,7 +2,7 @@ EESchema Schematic File Version 4
 LIBS:DAC-ADC SPI module-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "12 bit DAC/ADC SPI module."
@@ -146,7 +146,7 @@ $Comp
 L Connector:Conn_01x04_Male J1
 U 1 1 606AC511
 P 1795 3600
-F 0 "J1" H 1903 3789 50  0000 C CNN
+F 0 "J1" H 1835 3780 50  0000 C CNN
 F 1 "Conn_01x04_Male" H 1903 3790 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1795 3600 50  0001 C CNN
 F 3 "~" H 1795 3600 50  0001 C CNN
@@ -518,7 +518,7 @@ $Comp
 L Connector:Conn_01x08_Male J2
 U 1 1 60779499
 P 1800 5000
-F 0 "J2" H 1908 5389 50  0000 C CNN
+F 0 "J2" H 1835 5380 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 1908 5390 50  0001 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 1800 5000 50  0001 C CNN
 F 3 "~" H 1800 5000 50  0001 C CNN
@@ -528,12 +528,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0101
 U 1 1 6077F2EE
-P 2250 5300
-F 0 "#PWR0101" H 2250 5150 50  0001 C CNN
-F 1 "+5V" H 2265 5473 50  0000 C CNN
-F 2 "" H 2250 5300 50  0001 C CNN
-F 3 "" H 2250 5300 50  0001 C CNN
-	1    2250 5300
+P 2300 5300
+F 0 "#PWR0101" H 2300 5150 50  0001 C CNN
+F 1 "+5V" H 2315 5473 50  0000 C CNN
+F 2 "" H 2300 5300 50  0001 C CNN
+F 3 "" H 2300 5300 50  0001 C CNN
+	1    2300 5300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -552,13 +552,13 @@ Wire Wire Line
 Wire Wire Line
 	2100 5400 2100 5450
 Wire Wire Line
-	2000 5300 2250 5300
+	2000 5300 2300 5300
 Connection ~ 4000 1850
 Wire Wire Line
 	4000 1850 4000 1950
+Connection ~ 2100 5400
 Wire Bus Line
 	6050 3600 6050 4500
 Wire Bus Line
 	2500 4500 2500 5100
-Connection ~ 2100 5400
 $EndSCHEMATC
